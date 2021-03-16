@@ -1,7 +1,7 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (min-width:375px) and (max-width:1440px) {
+@media (min-width:700px) and (max-width:1440px) {
     .container{
         display:flex;
         flex-direction:column;
@@ -106,7 +106,7 @@
     }
 }
 
-@media (max-width:375px) {
+@media (min-width:375px) and (max-width:700px) {
     
     .container{
         display:flex;
